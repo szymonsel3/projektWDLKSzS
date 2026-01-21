@@ -14,20 +14,20 @@ Celem tego projektu jest praktyczne zastosowanie wiedzy zdobytej podczas laborat
 ## Struktura Repozytorium
 
 bash/
-├── classification/
-│ ├── inbox/ # Nowe pliki do sklasyfikowania
-│ └── classified/ # Pliki już sklasyfikowane
-├── duplicates/
-│ └── files/ # Wyszukane duplikaty plików
+- classification/
+* inbox/ # Nowe pliki do sklasyfikowania
+* classified/ # Pliki już sklasyfikowane
+- duplicates/
+* files/ # Wyszukane duplikaty plików
 latex/
-├── script/
-│ ├── parts/ # Pliki .tex z poszczególnych części materiałów
-│ └── main.tex # Główny plik LaTeX łączący wszystkie części
-│ └── script_wdlk.pdf # Finalny skompilowany dokument PDF
-├── instruction/
-│ ├── screenshots/ # Zrzuty ekranu ilustrujące instrukcje
-│ ├── main.tex # Plik źródłowy instrukcji
-│ └── instruction.pdf # Skompilowany dokument PDF z instrukcją
+- script/
+* parts/ # Pliki .tex z poszczególnych części materiałów
+* main.tex # Główny plik LaTeX łączący wszystkie części
+* script_wdlk.pdf # Finalny skompilowany dokument PDF
+- instruction/
+* instruction.pdf # Skompilowany plik z instrukcją
+* screenshots/ # Zrzuty ekranu ilustrujące instrukcje
+** main.tex # Plik źródłowy instrukcji
 
 
 

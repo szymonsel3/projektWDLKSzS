@@ -1,0 +1,2 @@
+- instrukcja latex wirtualna maszyna
+
